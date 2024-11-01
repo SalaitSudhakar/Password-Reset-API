@@ -10,4 +10,4 @@ This backend API is built with **Node.js**, **Express**, and **Mongoose** for ma
 - **Reset Password**: Validates the token and ID provided in the URL and allows the user to update their password.
 
 ## PostMan Documentation
-[API Documentation](Link)
+[API Documentation](https://documenter.getpostman.com/view/39168834/2sAY4viNo1)
