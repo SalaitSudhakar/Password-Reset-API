@@ -82,7 +82,7 @@ export const forgotPassword = async (req, res) => {
     const subject = "Password Reset Link";
     const text = `You recently requested to reset the password for your account.\n
     Click the link below to proceed:\n
-    http://localhost:5173/reset-password/${user._id}/${resetToken}\n
+    https://password-reset-project-reactjs.netlify.app/reset-password/${user._id}/${resetToken}\n
     This link is valid for 30 minutes. If you did not request a password reset, please ignore this email.`;
 
     // Send reset password link
